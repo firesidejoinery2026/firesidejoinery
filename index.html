@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fireside Joinery</title>
+  <style>
+    body { margin:0; font-family: Georgia, "Times New Roman", serif; color:#f5f1e8; background:#143225; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    .brand { font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+    .nav a { color:#f5f1e8; text-decoration:none; margin-left:14px; opacity:.9; }
+    .hero { padding: 56px 0 26px; }
+    h1 { font-size: 44px; line-height:1.05; margin: 0 0 10px; }
+    p { font-size: 18px; line-height:1.5; margin: 0 0 16px; color:#efe7d9; }
+    .btns { display:flex; gap:12px; flex-wrap:wrap; margin-top:18px; }
+    .btn { padding:12px 16px; border-radius:10px; font-weight:700; text-decoration:none; display:inline-block; }
+    .btn.primary { background:#d6b46a; color:#143225; }
+    .btn.secondary { border:1px solid rgba(245,241,232,.45); color:#f5f1e8; }
+    .cardrow { display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; margin: 26px 0; }
+    .card { background: rgba(0,0,0,.16); border:1px solid rgba(245,241,232,.15); border-radius:14px; padding:16px; }
+    .section { padding: 26px 0; border-top: 1px solid rgba(245,241,232,.15); }
+    h2 { margin:0 0 10px; font-size: 24px; }
+    ul { margin: 10px 0 0 20px; }
+    li { margin: 6px 0; }
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; }
+    .ph { aspect-ratio: 4/3; border-radius:12px; background: rgba(245,241,232,.12); border:1px dashed rgba(245,241,232,.25); display:flex; align-items:center; justify-content:center; color:rgba(245,241,232,.7); }
+    .footer { opacity:.85; font-size: 14px; padding: 18px 0 40px; }
+    @media (max-width: 780px) {
+      .cardrow { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">Fireside Joinery</div>
+      <div>
+        <a href="#chairs">Chairs</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>Sit by the fire. Stay for the stars.</h1>
+      <p>Handcrafted seating for cabin &amp; camp. Portable, sturdy chairs built for evenings around the fire—made with care, built to last, and finished to look right at home in the woods.</p>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Request a Quote</a>
+        <a class="btn secondary" href="#gallery">See Recent Builds</a>
+      </div>
+      <p style="margin-top:12px; opacity:.9; font-size:14px;">Custom options available • Local pickup • Craft fair ready</p>
+    </div>
+
+    <div class="cardrow">
+      <div class="card"><b>Built for the fire ring</b><br><span style="opacity:.9;">Comfortable, stable, and easy to set out when the day winds down.</span></div>
+      <div class="card"><b>Easy to move &amp; store</b><br><span style="opacity:.9;">Great for cabins, campsites, patios, and tailgates.</span></div>
+      <div class="card"><b>Made by hand</b><br><span style="opacity:.9;">Clean joinery, smooth edges, and a finish that shows off real wood grain.</span></div>
+    </div>
+
+    <div id="chairs" class="section">
+      <h2>The Fireside Stargazing Chair</h2>
+      <p>A Viking-inspired folding chair design made for real use—strong, simple, and timeless.</p>
+      <ul>
+        <li>Choice of wood (based on availability)</li>
+        <li>Natural oil finish or stained finish</li>
+        <li>Optional personalization (initials, simple emblem, constellation, or year)</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Get Pricing</a>
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <h2>Built for my family first.</h2>
+      <p>Fireside Joinery started with one goal: create seating that makes it easier to slow down and enjoy time outside—around a campfire, at a cabin, or under the stars.</p>
+    </div>
+
+    <div id="gallery" class="section">
+      <h2>Recent builds</h2>
+      <div class="grid">
+        <div class="ph">Add Photo</div><div class="ph">Add Photo</div><div class="ph">Add Photo</div>
+        <div class="ph">Add Photo</div><div class="ph">Add Photo</div><div class="ph">Add Photo</div>
+      </div>
+      <p style="opacity:.85; font-size:14px; margin-top:10px;">Tip: Add one campfire photo, one under-the-stars photo, one folded/flat-pack photo, and one close-up of joinery.</p>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>Request a quote</h2>
+      <p>Email: <b>hello@firesidejoinery.com</b></p>
+      <p style="opacity:.85;">(Add your website form here if your platform supports it.)</p>
+    </div>
+
+    <div class="footer">
+      Fireside Joinery • Handcrafted for Cabin &amp; Camp
+    </div>
+  </div>
+</body>
+</html>
